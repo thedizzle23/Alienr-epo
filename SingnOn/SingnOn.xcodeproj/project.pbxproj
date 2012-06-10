@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2114CB0158424B70014EC91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2114CAF158424B70014EC91 /* UIKit.framework */; };
+		B2114CB2158424B70014EC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2114CB1158424B70014EC91 /* Foundation.framework */; };
+		B2114CB4158424B70014EC91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2114CB3158424B70014EC91 /* CoreGraphics.framework */; };
+		B2114CBA158424B70014EC91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2114CB8158424B70014EC91 /* InfoPlist.strings */; };
+		B2114CBC158424B70014EC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2114CBB158424B70014EC91 /* main.m */; };
+		B2114CC0158424B70014EC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2114CBF158424B70014EC91 /* AppDelegate.m */; };
+		B2114CC3158424B70014EC91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2114CC1158424B70014EC91 /* MainStoryboard_iPhone.storyboard */; };
+		B2114CC6158424B70014EC91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2114CC4158424B70014EC91 /* MainStoryboard_iPad.storyboard */; };
+		B2114CC9158424B70014EC91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2114CC8158424B70014EC91 /* ViewController.m */; };
+		B2114CD1158424B80014EC91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2114CD0158424B80014EC91 /* SenTestingKit.framework */; };
+		B2114CD2158424B80014EC91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2114CAF158424B70014EC91 /* UIKit.framework */; };
+		B2114CD3158424B80014EC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2114CB1158424B70014EC91 /* Foundation.framework */; };
+		B2114CDB158424B80014EC91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2114CD9158424B80014EC91 /* InfoPlist.strings */; };
+		B2114CDE158424B80014EC91 /* SingnOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2114CDD158424B80014EC91 /* SingnOnTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2114CD4158424B80014EC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2114CA2158424B70014EC91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2114CAA158424B70014EC91;
+			remoteInfo = SingnOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2114CAB158424B70014EC91 /* SingnOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingnOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2114CAF158424B70014EC91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2114CB1158424B70014EC91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2114CB3158424B70014EC91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2114CB7158424B70014EC91 /* SingnOn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingnOn-Info.plist"; sourceTree = "<group>"; };
+		B2114CB9158424B70014EC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2114CBB158424B70014EC91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2114CBD158424B70014EC91 /* SingnOn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingnOn-Prefix.pch"; sourceTree = "<group>"; };
+		B2114CBE158424B70014EC91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2114CBF158424B70014EC91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2114CC2158424B70014EC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2114CC5158424B70014EC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2114CC7158424B70014EC91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2114CC8158424B70014EC91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2114CCF158424B80014EC91 /* SingnOnTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingnOnTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2114CD0158424B80014EC91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2114CD8158424B80014EC91 /* SingnOnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingnOnTests-Info.plist"; sourceTree = "<group>"; };
+		B2114CDA158424B80014EC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2114CDC158424B80014EC91 /* SingnOnTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingnOnTests.h; sourceTree = "<group>"; };
+		B2114CDD158424B80014EC91 /* SingnOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingnOnTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2114CA8158424B70014EC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2114CB0158424B70014EC91 /* UIKit.framework in Frameworks */,
+				B2114CB2158424B70014EC91 /* Foundation.framework in Frameworks */,
+				B2114CB4158424B70014EC91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2114CCB158424B80014EC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2114CD1158424B80014EC91 /* SenTestingKit.framework in Frameworks */,
+				B2114CD2158424B80014EC91 /* UIKit.framework in Frameworks */,
+				B2114CD3158424B80014EC91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2114CA0158424B70014EC91 = {
+			isa = PBXGroup;
+			children = (
+				B2114CB5158424B70014EC91 /* SingnOn */,
+				B2114CD6158424B80014EC91 /* SingnOnTests */,
+				B2114CAE158424B70014EC91 /* Frameworks */,
+				B2114CAC158424B70014EC91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2114CAC158424B70014EC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2114CAB158424B70014EC91 /* SingnOn.app */,
+				B2114CCF158424B80014EC91 /* SingnOnTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2114CAE158424B70014EC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2114CAF158424B70014EC91 /* UIKit.framework */,
+				B2114CB1158424B70014EC91 /* Foundation.framework */,
+				B2114CB3158424B70014EC91 /* CoreGraphics.framework */,
+				B2114CD0158424B80014EC91 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2114CB5158424B70014EC91 /* SingnOn */ = {
+			isa = PBXGroup;
+			children = (
+				B2114CBE158424B70014EC91 /* AppDelegate.h */,
+				B2114CBF158424B70014EC91 /* AppDelegate.m */,
+				B2114CC1158424B70014EC91 /* MainStoryboard_iPhone.storyboard */,
+				B2114CC4158424B70014EC91 /* MainStoryboard_iPad.storyboard */,
+				B2114CC7158424B70014EC91 /* ViewController.h */,
+				B2114CC8158424B70014EC91 /* ViewController.m */,
+				B2114CB6158424B70014EC91 /* Supporting Files */,
+			);
+			path = SingnOn;
+			sourceTree = "<group>";
+		};
+		B2114CB6158424B70014EC91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2114CB7158424B70014EC91 /* SingnOn-Info.plist */,
+				B2114CB8158424B70014EC91 /* InfoPlist.strings */,
+				B2114CBB158424B70014EC91 /* main.m */,
+				B2114CBD158424B70014EC91 /* SingnOn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2114CD6158424B80014EC91 /* SingnOnTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2114CDC158424B80014EC91 /* SingnOnTests.h */,
+				B2114CDD158424B80014EC91 /* SingnOnTests.m */,
+				B2114CD7158424B80014EC91 /* Supporting Files */,
+			);
+			path = SingnOnTests;
+			sourceTree = "<group>";
+		};
+		B2114CD7158424B80014EC91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2114CD8158424B80014EC91 /* SingnOnTests-Info.plist */,
+				B2114CD9158424B80014EC91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2114CAA158424B70014EC91 /* SingnOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2114CE1158424B80014EC91 /* Build configuration list for PBXNativeTarget "SingnOn" */;
+			buildPhases = (
+				B2114CA7158424B70014EC91 /* Sources */,
+				B2114CA8158424B70014EC91 /* Frameworks */,
+				B2114CA9158424B70014EC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingnOn;
+			productName = SingnOn;
+			productReference = B2114CAB158424B70014EC91 /* SingnOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2114CCE158424B80014EC91 /* SingnOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2114CE4158424B80014EC91 /* Build configuration list for PBXNativeTarget "SingnOnTests" */;
+			buildPhases = (
+				B2114CCA158424B80014EC91 /* Sources */,
+				B2114CCB158424B80014EC91 /* Frameworks */,
+				B2114CCC158424B80014EC91 /* Resources */,
+				B2114CCD158424B80014EC91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2114CD5158424B80014EC91 /* PBXTargetDependency */,
+			);
+			name = SingnOnTests;
+			productName = SingnOnTests;
+			productReference = B2114CCF158424B80014EC91 /* SingnOnTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2114CA2158424B70014EC91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2114CA5158424B70014EC91 /* Build configuration list for PBXProject "SingnOn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2114CA0158424B70014EC91;
+			productRefGroup = B2114CAC158424B70014EC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2114CAA158424B70014EC91 /* SingnOn */,
+				B2114CCE158424B80014EC91 /* SingnOnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2114CA9158424B70014EC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2114CBA158424B70014EC91 /* InfoPlist.strings in Resources */,
+				B2114CC3158424B70014EC91 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2114CC6158424B70014EC91 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2114CCC158424B80014EC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2114CDB158424B80014EC91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2114CCD158424B80014EC91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2114CA7158424B70014EC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2114CBC158424B70014EC91 /* main.m in Sources */,
+				B2114CC0158424B70014EC91 /* AppDelegate.m in Sources */,
+				B2114CC9158424B70014EC91 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2114CCA158424B80014EC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2114CDE158424B80014EC91 /* SingnOnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2114CD5158424B80014EC91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2114CAA158424B70014EC91 /* SingnOn */;
+			targetProxy = B2114CD4158424B80014EC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2114CB8158424B70014EC91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2114CB9158424B70014EC91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2114CC1158424B70014EC91 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2114CC2158424B70014EC91 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2114CC4158424B70014EC91 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2114CC5158424B70014EC91 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2114CD9158424B80014EC91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2114CDA158424B80014EC91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2114CDF158424B80014EC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2114CE0158424B80014EC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2114CE2158424B80014EC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingnOn/SingnOn-Prefix.pch";
+				INFOPLIST_FILE = "SingnOn/SingnOn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2114CE3158424B80014EC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingnOn/SingnOn-Prefix.pch";
+				INFOPLIST_FILE = "SingnOn/SingnOn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2114CE5158424B80014EC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SingnOn.app/SingnOn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingnOn/SingnOn-Prefix.pch";
+				INFOPLIST_FILE = "SingnOnTests/SingnOnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2114CE6158424B80014EC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SingnOn.app/SingnOn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingnOn/SingnOn-Prefix.pch";
+				INFOPLIST_FILE = "SingnOnTests/SingnOnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2114CA5158424B70014EC91 /* Build configuration list for PBXProject "SingnOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2114CDF158424B80014EC91 /* Debug */,
+				B2114CE0158424B80014EC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2114CE1158424B80014EC91 /* Build configuration list for PBXNativeTarget "SingnOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2114CE2158424B80014EC91 /* Debug */,
+				B2114CE3158424B80014EC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2114CE4158424B80014EC91 /* Build configuration list for PBXNativeTarget "SingnOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2114CE5158424B80014EC91 /* Debug */,
+				B2114CE6158424B80014EC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2114CA2158424B70014EC91 /* Project object */;
+}
